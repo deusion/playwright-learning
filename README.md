@@ -4,6 +4,8 @@ This is a personal repository for learning Playwright test automation.
 
 Project currently primarily functions as filling a form in 'form-field.spec.ts', goal is to understand best practices of Playwright as I go.
 
+'comprehensive.spec.ts' tests basic API call functionality and does concurrency checks as well as basic HTTP code checks.
+
 ## Features
 
 - **Playwright** - Modern, fast browser automation
@@ -42,6 +44,10 @@ npx playwright test
 **Run specific test file**
 ```bash
 npx playwright test tests/form-fields.spec.ts
+```
+or
+```bash
+npx playwright test tests/comprehensive.spec.ts
 ```
 
 **View Test Report**
